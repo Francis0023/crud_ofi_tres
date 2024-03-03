@@ -8,6 +8,7 @@ public class form1 {
     private JLabel txtcrud;
     private JButton continuarButton;
     private JButton salirButton;
+    private JButton salirButton2;
 
     public form1() {
         continuarButton.addActionListener(new ActionListener() {
@@ -23,4 +24,6 @@ public class form1 {
             }
         });
     }
+
+
 }
